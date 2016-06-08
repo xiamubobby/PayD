@@ -1,19 +1,20 @@
-package xiamubobby.com.payd
+package xiamubobby.com.payd.apocalypse.activity.newrecord
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import xiamubobby.com.payd.apocolyps.service.TheService
+import android.support.v7.app.AppCompatActivity
+import org.jetbrains.anko.AnkoLogger
+import xiamubobby.com.payd.R
+import xiamubobby.com.payd.apocalypse.service.TheService
 
 /**
  * Created by natsuki on 16/6/6.
  */
-class TransparentActivity: Activity() {
+class NewRecordActivity : AppCompatActivity(), AnkoLogger {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val v = View(this)
-        setContentView(v)
+        setContentView(R.layout.new_record_activity)
+
     }
 
     override fun onResume() {

@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".TransparentActivity" android:theme="@style/TransparentActivity">
+        <activity android:name=".apocalypse.activity.newrecord.NewRecordActivity" android:theme="@style/AppTheme.TransparentActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <receiver android:name=".apocolyps.boradcastreceiver.BootUpReceiver">
+        <receiver android:name=".apocalypse.boradcastreceiver.BootUpReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".apocolyps.service.TheService">
+        <service android:name=".apocalypse.service.TheService">
 
         </service>
 

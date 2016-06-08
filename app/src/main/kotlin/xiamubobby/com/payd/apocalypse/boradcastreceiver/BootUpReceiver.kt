@@ -1,9 +1,9 @@
-package xiamubobby.com.payd.apocolyps.boradcastreceiver
+package xiamubobby.com.payd.apocalypse.boradcastreceiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import xiamubobby.com.payd.apocolyps.service.TheService
+import xiamubobby.com.payd.apocalypse.service.TheService
 
 /**
  * Created by natsuki on 16/6/7.
